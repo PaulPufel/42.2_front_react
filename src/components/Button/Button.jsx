@@ -1,10 +1,10 @@
 import "./styles.css";
 
-function Button() {
-  const isGetButton = false;
+function Button({battonName = "Get"}) {
+  // console.log(props.battonName);
 
   return (
-    <button className="main-button">{isGetButton ? "Get" : "Send"}</button>
+    <button className="main-button">{battonName}</button>
   );
 }
 
