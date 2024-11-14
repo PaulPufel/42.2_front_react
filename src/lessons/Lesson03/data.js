@@ -1,5 +1,5 @@
 export const lionData = {
-  name: "Alex",
+  name: "Tomas",
   species: "Lion",
   role: "Main Character",
   skills: ["Roaring", "Hunting"],
@@ -7,7 +7,7 @@ export const lionData = {
 };
 
 export const zebraData = {
-  name: "Marty",
+  name: "Otto",
   species: "Zebra",
   role: "Best Friend",
   skills: ["Running", "Joking"],
