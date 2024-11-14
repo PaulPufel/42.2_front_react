@@ -7,7 +7,7 @@ export const lionData = {
 };
 
 export const zebraData = {
-  name: "Marty",
+  name: "Otto",
   species: "Zebra",
   role: "Best Friend",
   skills: ["Running", "Joking"],
