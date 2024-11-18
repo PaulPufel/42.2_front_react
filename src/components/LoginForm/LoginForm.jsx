@@ -1,11 +1,11 @@
+import "./styles.css";
 import Button from "../Button/Button";
 import Input from "../Input/Input";
-import "./styles.css";
 
 function LoginForm() {
   return (
     <form className="login-form-wrapper">
-      <div className="login-form-title">Login form</div>
+      <h1>Login form</h1>
       <div className="inputs-container">
         <Input
           name="email"

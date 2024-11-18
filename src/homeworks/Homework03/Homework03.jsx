@@ -1,9 +1,9 @@
-import LoginForm from "../../components/LoginForm/LoginForm";
 import "./styles.css";
+import LoginForm from "../../components/LoginForm/LoginForm";
 
 function Homework03() {
   return (
-    <div className="homework03-container">
+    <div className="container">
       <LoginForm />
     </div>
   );

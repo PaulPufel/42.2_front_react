@@ -5,16 +5,18 @@
   flex-direction: column;
   gap: 30px;
   width: 590px;
+  height: 450px;
   padding: 60px;
   border: 1px solid black;
   border-radius: 4px;
   font-family: Lato, Geneva, Tahoma, sans-serif;
+  background-color: #FFFFFF;
 }
 
-.login-form-title {
-  font-size: 24px;
-  font-weight: bold;
-}
+h1{
+font-size: 24px;
+font-weight: 400;
+} 
 
 .inputs-container {
   display: flex;
