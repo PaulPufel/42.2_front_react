@@ -1,6 +1,6 @@
 import "./styles.css";
 
-function Input({ name, id, type, placeholder, label }) {
+function Input({ id, name, type, placeholder, label }) {
   return (
     <div className="input-container">
       <label htmlFor={id}>{label}</label>
