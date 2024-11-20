@@ -1,0 +1,20 @@
+.feedbacks-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.feedbacks-controls {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.feedbacks-count {
+  font-size: 40px;
+  font-weight: bold;
+  color: red;
+}
