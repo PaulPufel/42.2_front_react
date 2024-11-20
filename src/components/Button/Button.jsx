@@ -1,10 +1,11 @@
 import "./styles.css";
 
-function Button({battonName = "Get"}) {
-  // console.log(props.battonName);
+function Button({ name, type = "button", onClick}) {
 
   return (
-    <button className="main-button">{battonName}</button>
+    <button onClick={onClick} className="main-button" type={type}>
+      {name}
+    </button>
   );
 }
 

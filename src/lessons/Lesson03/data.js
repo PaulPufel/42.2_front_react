@@ -1,5 +1,5 @@
 export const lionData = {
-  name: "Alex",
+  name: "Tomas",
   species: "Lion",
   role: "Main Character",
   skills: ["Roaring", "Hunting"],
