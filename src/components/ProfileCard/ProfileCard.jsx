@@ -7,9 +7,9 @@ function ProfileCard() {
     <div className="profile-card-wrapper">
       <div className="profile-card-title">{userData.name}</div>
       {/* 1 вариант */}
-      {/* <img src={userData.avatar} /> */}
+      <img src={userData.avatar} alt="user avatar"/>
       {/* 2 вариант */}
-      <img src={userAvatar} />
+      {/* <img src={userAvatar} alt="user avatar"/> */}
       <div>{userData.profession}</div>
       <div>{userData.hobbies[0]}</div>
     </div>
