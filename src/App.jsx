@@ -14,7 +14,7 @@ import Lesson05 from "./lessons/Lesson05/Lesson05";
 
 
 //consultation imports
-// import Consult02 from "./consultation/Consult02/Consult02";
+// import Consult02 from "./consultations/Consult02/Consult02";
 
 function App() {
   return (
@@ -28,7 +28,7 @@ function App() {
       {/* <Homework03 /> */}
       {/* <Homework04cw /> */}
       {/* <Consult02 /> */}
-      
+
     </div>
   );
 }
