@@ -3,11 +3,11 @@ import Button from "../Button/Button";
 import { useState } from "react";
 
 function Feedbacks() {
-    const [likes, setLikes] = useState(0);
-    const [dislikes, setDislikes] = useState(0);
+    const [likes, setLikes] = = useState(0);
+    const [dislikes, setDislikes] = = useState(0);
   
-    const clickLike = () => setLikes(likes + 1);
-    const clickDislike = () => setDislikes(dislikes + 1);
+    const clickLike = () => setLikes((prevValue) => prevValue+1) ;
+    const clickDislike = () => setDisLikes((prevValue) => prevValue+1) ;
     const resetResults = () => {
       setLikes(0);
       setDislikes(0);
